@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Beetle.Express.Channel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgBIECAAAKCQwBYAWAKABBQBBCACIQEBQAAAwgEAAAI=</HashCode>
+      <FileName>Channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.ChannelConnectEventArgs" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelConnectEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.ChannelEventArgs" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.ChannelReceiveEventArgs" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelReceiveEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.ChannelSendEventArgs" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelSendEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.Data" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgCAAAQAAAAAQAAQAAIAAAAAAQAAEAgEA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.ErrorEventArgs" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErrorEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.ReceiveData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAACAAEIAAAAAQAAABACAAAIAAAAAAAgAA=</HashCode>
+      <FileName>ReceiveData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.ReceiveDataPool" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAAAEAAQAAAIAACAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ReceiveDataPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.ReceiveDispatch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAACAAAABAEAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ReceiveDispatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.SendDispatch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAACAAAABAEAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SendDispatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.SendUserToken" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAAAAAABAAAAAAAAAAgAA=</HashCode>
+      <FileName>SendUserToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.Express.TcpServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgQJAAAAQjIpIAAAAkAIAIIAqAAAOEcAJgACBAAQCBE=</HashCode>
+      <FileName>TcpServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.Express.ServerSection" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAQIAAAABAAAAAAAAAAQAAAAACAAAA=</HashCode>
+      <FileName>TcpServerSection.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Beetle.Express.IChannel" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAwAAACACAABQAAAAAIQAAAAAAAgAAAAA=</HashCode>
+      <FileName>IChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.Express.IData">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgCAAAAAAAAAQAAQAAIAAAAAAQAAAAgAA=</HashCode>
+      <FileName>IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.Express.IReceiveData">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAAAAAAQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>IReceiveData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.Express.IServerHandler" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAIAAAIAAAAAQAAAAAAACAAA=</HashCode>
+      <FileName>IServerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Beetle.Express.SendStatus" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SendStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Beetle.Express.EventChannelConnectd" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.Express.EventChannelDisposed" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.Express.EventChannelError" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.Express.EventChannelReceive" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.Express.EventChannelSend" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

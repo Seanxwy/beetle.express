@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EACC66E-1D6C-469A-B807-D42FFEE9063F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Beetle.Express</RootNamespace>
+    <AssemblyName>Beetle.Express</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Channel.cs" />
+    <Compile Include="ChannelConnectEventArgs.cs" />
+    <Compile Include="ChannelEventArgs.cs" />
+    <Compile Include="ChannelReceiveEventArgs.cs" />
+    <Compile Include="ChannelSendEventArgs.cs" />
+    <Compile Include="ChannelStatus.cs" />
+    <Compile Include="Clients\TcpClient.cs" />
+    <Compile Include="Clients\TcpReceiveArgs.cs" />
+    <Compile Include="Clients\UdpReceiveArgs.cs" />
+    <Compile Include="Clients\UdpClient.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="ErrorEventArgs.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="IChannel.cs" />
+    <Compile Include="IData.cs" />
+    <Compile Include="IPackage.cs" />
+    <Compile Include="IReceiveData.cs" />
+    <Compile Include="IServer.cs" />
+    <Compile Include="IServerHandler.cs" />
+    <Compile Include="OnlineSegment.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveData.cs" />
+    <Compile Include="ReceiveDataPool.cs" />
+    <Compile Include="ReceiveDispatch.cs" />
+    <Compile Include="SendDispatch.cs" />
+    <Compile Include="SendStatus.cs" />
+    <Compile Include="SendUserToken.cs" />
+    <Compile Include="ServerFactory.cs" />
+    <Compile Include="TcpServer.cs" />
+    <Compile Include="TcpServerSection.csd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TcpServerSection.csd</DependentUpon>
+    </Compile>
+    <Compile Include="UdpChannel.cs" />
+    <Compile Include="UdpServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="TcpServerSection.csd">
+      <Generator>CsdFileGenerator</Generator>
+      <LastGenOutput>TcpServerSection.csd.cs</LastGenOutput>
+    </None>
+    <None Include="TcpServerSection.csd.config">
+      <DependentUpon>TcpServerSection.csd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TcpServerSection.csd.diagram">
+      <DependentUpon>TcpServerSection.csd</DependentUpon>
+    </None>
+    <None Include="TcpServerSection.csd.xsd">
+      <DependentUpon>TcpServerSection.csd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

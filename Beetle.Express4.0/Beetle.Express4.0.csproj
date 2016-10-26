@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DCE913C-FDA3-4F26-9059-11F9B03BA670}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Beetle.Express</RootNamespace>
+    <AssemblyName>Beetle.Express</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Beetle.Express.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Beetle.Express2.0\Channel.cs">
+      <Link>Channel.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ChannelConnectEventArgs.cs">
+      <Link>ChannelConnectEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ChannelEventArgs.cs">
+      <Link>ChannelEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ChannelReceiveEventArgs.cs">
+      <Link>ChannelReceiveEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ChannelSendEventArgs.cs">
+      <Link>ChannelSendEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ChannelStatus.cs">
+      <Link>ChannelStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Clients\TcpClient.cs">
+      <Link>Clients\TcpClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Clients\TcpReceiveArgs.cs">
+      <Link>Clients\TcpReceiveArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Clients\UdpClient.cs">
+      <Link>Clients\UdpClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Clients\UdpReceiveArgs.cs">
+      <Link>Clients\UdpReceiveArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Data.cs">
+      <Link>Data.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ErrorEventArgs.cs">
+      <Link>ErrorEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Events.cs">
+      <Link>Events.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IChannel.cs">
+      <Link>IChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IData.cs">
+      <Link>IData.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IPackage.cs">
+      <Link>IPackage.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IReceiveData.cs">
+      <Link>IReceiveData.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IServer.cs">
+      <Link>IServer.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\IServerHandler.cs">
+      <Link>IServerHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\OnlineSegment.cs">
+      <Link>OnlineSegment.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ReceiveData.cs">
+      <Link>ReceiveData.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ReceiveDataPool.cs">
+      <Link>ReceiveDataPool.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ReceiveDispatch.cs">
+      <Link>ReceiveDispatch.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\SendDispatch.cs">
+      <Link>SendDispatch.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\SendStatus.cs">
+      <Link>SendStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\SendUserToken.cs">
+      <Link>SendUserToken.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\ServerFactory.cs">
+      <Link>ServerFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\TcpServer.cs">
+      <Link>TcpServer.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\TcpServerSection.csd.cs">
+      <Link>TcpServerSection.csd.cs</Link>
+      <DependentUpon>TcpServerSection.csd.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\UdpChannel.cs">
+      <Link>UdpChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\Beetle.Express2.0\UdpServer.cs">
+      <Link>UdpServer.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Beetle.Express2.0\TcpServerSection.csd.xsd">
+      <Link>TcpServerSection.csd.xsd</Link>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
